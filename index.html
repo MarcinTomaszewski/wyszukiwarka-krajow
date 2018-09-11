@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wyszukiwarka krajów</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wyszukiwarka krajów</h1>
+        <button id="search">Szukaj kraju</button>
+        <input id="country-name" type="text" class="input-look"/>
+    <div>
+        <h2>Lista krajów</h2>
+        <table id="countries" class="table">
+            <tr id="nodata">Kraje zawierające w swojej nazwie podaną frazę.</tr>
+        </table>
+    </div>
+   
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
